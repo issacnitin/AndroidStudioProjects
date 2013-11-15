@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/netResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center" 
+        android:layout_weight="30"/>
+
+    <Button
+        android:id="@+id/addOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/customic"
+         />
+
+    <Button
+        android:id="@+id/subOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-1"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

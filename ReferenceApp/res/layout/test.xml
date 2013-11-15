@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type Password Here"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+<LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_weight="30" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:checked="true"
+        android:text="ToggleButton" />
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invalid"
+        android:gravity="center" />
+
+</LinearLayout>

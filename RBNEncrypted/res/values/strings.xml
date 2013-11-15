@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RBN Encrypted</string>    
+    <string name="edit_message">ID yourself</string>
+    <string name="button_send">SEND</string>
+    <string name="title_activity_display_message">Oh Well!</string>
+    <string name="SomeFunText">^_^ \n\nTHUNDERBUDDIES\nRULE!\n\n^_^</string>
+</resources>

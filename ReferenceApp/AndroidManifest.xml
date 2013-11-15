@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.issacnitin.referenceapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.issacnitin.referenceapp.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.issacnitin.referenceapp.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.AboutUs"
+            android:label="AboutMe"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.issacnitin.referenceapp.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.issacnitin.referenceapp.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.Camera"
+            android:label="Camera Application"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.Data"
+            android:label="YourOwnLooks" >
+        </activity>
+          <activity
+            android:name="com.issacnitin.referenceapp.GFX"
+            android:label="YourOwnLooks" >
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.Get"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.GFXSurface"
+            android:label="GFXSurface" >
+        </activity>
+        <activity
+            android:name="com.issacnitin.referenceapp.SoundStuff"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.issacnitin.referenceapp.SOUNDSTUFF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
